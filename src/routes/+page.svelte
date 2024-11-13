@@ -1,18 +1,12 @@
 <script>
 
-
   function goToSigninPage() {
-
      window.location.href = '/signin';
-
   }
 
   function goToSignupPage() {
-
      window.location.href = '/signup';
-     
   }
-
 
 </script>
 
@@ -78,7 +72,8 @@
     <div>
       <img src="" alt="more detailed product">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Repudiandae
           nemo nisi ullam natus vitae cumque quos
           illum facilis quis cupiditate similique ea quisquam nostrum iusto, sint ab et sed voluptas!
         </p>
@@ -105,6 +100,7 @@
 </footer>
 
 <style>
+  
   nav{
     display: flex;
     justify-content: space-between;

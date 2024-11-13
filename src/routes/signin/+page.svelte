@@ -7,12 +7,13 @@
     <img src="" alt="sign static" width="50%">
 
     <form action="">
+
         <h3>Welcome Back</h3>
         <input type="email" placeholder="Email" required>
         <input type="password" placeholder="Password" required>
         <button type="submit">Sign In</button>
         <div id="sign-up">
-            <p>Don't Have have an account</p>
+            <p>Don't have an account</p>
             <a href="../signup"><p id="sign-up-button">Sign Up</p></a>  
         </div>
         
@@ -31,6 +32,7 @@
     #sign-up-button{
         padding-left: 10px;
         color: blue;
+       
 
     }
 
@@ -60,6 +62,7 @@
         padding: 10px;
         background-color: blue;
         color: white;
+        border-radius: 10px;
     }
 
    #auth{
