@@ -1,6 +1,7 @@
+
 <nav>
-  <img src="./src/Images/technest.png" alt="logo">
-  <div>
+  <img src="./src/Images/technest.png" alt="logo" id="logo" width="100" height="100">
+  <div id="navlinks">
     <a href="/">Home</a>
     <a href="/Cart">Cart</a>
     <a href="/Blog">Blog</a>
@@ -8,7 +9,7 @@
     <a href="/faq">FAQ</a>
     <a href="/about">About Us</a>
   </div>
-  <div>
+  <div id="register">
     <button>
       Sign in
     </button>
@@ -20,8 +21,8 @@
   </div>
 </nav>
 
-<div>
-    <div>
+<div id="hero">
+    <div id="hero-text">
         <h1>
           Welcome to TechNest
         </h1>
@@ -32,6 +33,10 @@
           beatae exercitationem modi aut iusto cum nesciunt nisi 
           dolore praesentium cumque vitae! Rerum, consequuntur animi!   
         </h3>
+
+        <button>
+          Get Started
+        </button>
     </div>
 
     <div>
@@ -39,7 +44,7 @@
     </div>
 </div>
 
-<h3>Today's Offers</h3>
+<h3 id="todays">Today's Offers</h3>
    
 <div>
  
@@ -63,7 +68,7 @@
     </div>
 </div>
 
-<h3>Our Product</h3>
+<h3 id="todays">Our Products</h3>
 
 <div>
     <div>
@@ -80,3 +85,51 @@
 <footer>
   Tech nest 2024
 </footer>
+
+<style>
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  #navlinks a{
+    padding: 5px;
+  }
+  #register{
+    margin-right: 30px;
+  }
+  #register button{
+    margin: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+  }
+ #hero{
+  display: flex;
+ }
+ #hero h1{
+  font-size: 40px;
+  font-weight: 800;
+ }
+ #hero-text{
+  width: 60%;
+  padding: 30px;
+ }
+ #hero-text button{
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+ }
+
+ #todays{
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+ }
+
+
+</style>
