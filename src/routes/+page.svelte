@@ -12,7 +12,7 @@
 
 
 <nav>
-  <img src="./src/Images/technest.png" alt="logo" id="logo" width="100" height="100">
+  <a href="/"><img src="./src/Images/technest.png" alt="logo" id="logo" width="100" height="100"></a>
   <div id="navlinks">
     <a href="/">Home</a>
     <a href="/Cart">Cart</a>
@@ -52,14 +52,13 @@
     </div>
 
     <div>
-      <img src="" alt="hero">
+      <img src="../src/Images/headphone.jpg" alt="hero" width="80%" height="60%" id="hero-img">
     </div>
 </div>
 
 <h3 id="todays">Today's Offers</h3>
    
-<div>
- 
+<div id="todays-offers">
   <div>
      <img src="" alt="product name">
      <h3>Product Name</h3>
@@ -109,6 +108,16 @@
   }
   #navlinks a{
     padding: 5px;
+    font-weight: 600;
+  }
+  #navlinks a:hover{
+    color: blue;
+
+  }
+
+  #hero-img{
+    margin-left: 150px;
+    border-radius: 30px;
   }
   #register{
     margin-right: 30px;
@@ -121,40 +130,49 @@
     border-radius: 30px;
   }
  #hero{
-  display: flex;
-  height: 90vh;
+    display: flex;
+    height: 90vh;
  }
  #hero h1{
-  font-size: 40px;
-  font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
  }
  #hero-text{
-  width: 60%;
-  padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 30px;
  }
  #hero-text button{
-    margin: 10px;
+    margin-top: 10px;
     padding: 10px;
     background-color: blue;
     color: white;
     border-radius: 30px;
  }
+ #todays-offers{
+   padding-left: 30px;
+ }
 
  #todays{
-  font-size: 20px;
-  font-weight: 800;
-  text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
  }
  #detail-part{
-  height: 80vh;
+    padding-left: 30px;
+    height: 80vh;
  }
  #todays-products{
-  height: 90vh;
+    padding-left: 30px;
+    height: 90vh;
  }
 
  footer{
-  text-align: center;
+   text-align: center;
  }
+
 
 
 </style>
