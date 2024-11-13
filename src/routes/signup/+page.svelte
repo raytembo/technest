@@ -72,9 +72,7 @@
         height: 100vh;
    }
 
-   #auth img{
-
-   }
+  
 
    
     

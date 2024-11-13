@@ -68,7 +68,7 @@
   </div>
 </div>
 
-<div>
+<div id="detail-part">
     <div>
       <img src="" alt="more detailed product">
         <p>
@@ -83,7 +83,7 @@
 
 <h3 id="todays">Our Products</h3>
 
-<div>
+<div id="todays-products">
     <div>
       <img src="" alt="product name">
       <h3>Product Name</h3>
@@ -100,7 +100,7 @@
 </footer>
 
 <style>
-  
+
   nav{
     display: flex;
     justify-content: space-between;
@@ -122,6 +122,7 @@
   }
  #hero{
   display: flex;
+  height: 90vh;
  }
  #hero h1{
   font-size: 40px;
@@ -142,6 +143,16 @@
  #todays{
   font-size: 20px;
   font-weight: 800;
+  text-align: center;
+ }
+ #detail-part{
+  height: 80vh;
+ }
+ #todays-products{
+  height: 90vh;
+ }
+
+ footer{
   text-align: center;
  }
 
