@@ -1,3 +1,21 @@
+<script>
+
+
+  function goToSigninPage() {
+
+     window.location.href = '/signin';
+
+  }
+
+  function goToSignupPage() {
+
+     window.location.href = '/signup';
+     
+  }
+
+
+</script>
+
 
 <nav>
   <img src="./src/Images/technest.png" alt="logo" id="logo" width="100" height="100">
@@ -10,11 +28,11 @@
     <a href="/about">About Us</a>
   </div>
   <div id="register">
-    <button>
+    <button on:click={goToSigninPage}>
       Sign in
     </button>
 
-    <button>
+    <button on:click={goToSignupPage}>
       Sign Up
     </button>
 
