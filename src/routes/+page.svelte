@@ -40,10 +40,12 @@
         </h1>
     
         <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-          iure excepturi tempora commodi totam voluptas 
-          beatae exercitationem modi aut iusto cum nesciunt nisi 
-          dolore praesentium cumque vitae! Rerum, consequuntur animi!   
+          Your one-stop shop for the latest tech gadgets, 
+          accessories, 
+          and smart solutions! At Tech Nest, 
+          we bring innovation to your doorstep, 
+          offering unbeatable deals and cutting-edge technology to enhance your lifestyle. 
+          Shop smarter, live better—only at Tech Nest.
         </h3>
 
         <button>
@@ -54,44 +56,6 @@
     <div>
       <img src="../src/Images/headphone.jpg" alt="hero" width="80%" height="60%" id="hero-img">
     </div>
-</div>
-
-<h3 id="todays">Today's Offers</h3>
-   
-<div id="todays-offers">
-  <div>
-     <img src="" alt="product name">
-     <h3>Product Name</h3>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <h4>$300</h4>
-  </div>
-</div>
-
-<div id="detail-part">
-    <div>
-      <img src="" alt="more detailed product">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Repudiandae
-          nemo nisi ullam natus vitae cumque quos
-          illum facilis quis cupiditate similique ea quisquam nostrum iusto, sint ab et sed voluptas!
-        </p>
-      <h2>$499 <em>Only</em></h2>
-    </div>
-</div>
-
-<h3 id="todays">Our Products</h3>
-
-<div id="todays-products">
-    <div>
-      <img src="" alt="product name">
-      <h3>Product Name</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <h4>$300</h4>
-    </div>
-    <button>
-      View More
-    </button>
 </div>
 
 <footer>
@@ -112,12 +76,18 @@
   }
   #navlinks a:hover{
     color: blue;
-
   }
 
   #hero-img{
     margin-left: 150px;
+    margin-right: 100px;
     border-radius: 30px;
+    filter: grayscale(50%);
+    transition: filter 0.5s ease, transform 0.5s ease-in-out;
+  }
+  #hero-img:hover{
+    filter: grayscale(0%);
+    
   }
   #register{
     margin-right: 30px;
@@ -142,7 +112,7 @@
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    padding: 30px;
+    padding-left: 30px;
  }
  #hero-text button{
     margin-top: 10px;
@@ -150,29 +120,16 @@
     background-color: blue;
     color: white;
     border-radius: 30px;
+    transition: all 0.5s ease, transform 0.5s ease-in-out;
  }
- #todays-offers{
-   padding-left: 30px;
+ #hero-text button:hover{
+   background-color: white;
+   color: blue;
+   border: 1px solid blue;
  }
-
- #todays{
-    font-size: 20px;
-    font-weight: 800;
-    text-align: center;
- }
- #detail-part{
-    padding-left: 30px;
-    height: 80vh;
- }
- #todays-products{
-    padding-left: 30px;
-    height: 90vh;
- }
-
+ 
  footer{
    text-align: center;
  }
-
-
 
 </style>
