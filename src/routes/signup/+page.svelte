@@ -1,24 +1,27 @@
 <script>
+
+function goToHome() {
+     window.location.href = '/home';
+  }
+
     
 </script>
 
 <div id="auth">
 
-    <img src="" alt="sign static" width="50%">
+    <img src="../src/Images/sign_in_back.jpg" alt="sign static" width="50%">
 
-    <form action="">
-
+    <div>
         <h3>Welcome Back</h3>
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Create Password" required>
-        <input type="password" placeholder="Re-enter Password" required>
-        <button type="submit">Sign In</button>
+        <input type="email" placeholder="Email" >
+        <input type="password" placeholder="Create Password">
+        <input type="password" placeholder="Re-enter Password">
+        <button on:click={goToHome}>Sign In</button>
         <div id="sign-up">
             <p>Already have an account</p>
             <a href="../signin"><p id="sign-up-button">Sign In</p></a>  
         </div>
-        
-    </form>
+    </div>
 
 </div>
 

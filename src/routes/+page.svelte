@@ -14,7 +14,7 @@
 <nav>
   <a href="/"><img src="./src/Images/technest.png" alt="logo" id="logo" width="100" height="100"></a>
   <div id="navlinks">
-    <a href="/">Home</a>
+    <a href="/home">Home</a>
     <a href="/Cart">Cart</a>
     <a href="/Blog">Blog</a>
     <a href="/profile">Profile</a>
@@ -29,7 +29,6 @@
     <button on:click={goToSignupPage}>
       Sign Up
     </button>
-
   </div>
 </nav>
 
@@ -76,13 +75,14 @@
   }
   #navlinks a:hover{
     color: blue;
+    transition: all 0.5s ease, transform 0.5s ease-in-out;
   }
 
   #hero-img{
     margin-left: 150px;
     margin-right: 100px;
     border-radius: 30px;
-    filter: grayscale(50%);
+    filter: grayscale(10%);
     transition: filter 0.5s ease, transform 0.5s ease-in-out;
   }
   #hero-img:hover{
@@ -98,6 +98,12 @@
     background-color: blue;
     color: white;
     border-radius: 30px;
+    transition: all 0.5s ease, transform 0.5s ease-in-out;
+  }
+  #register button:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
   }
  #hero{
     display: flex;

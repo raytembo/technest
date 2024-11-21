@@ -4,7 +4,7 @@
 
 <div id="auth">
 
-    <img src="" alt="sign static" width="50%">
+    <img src="../src/Images/sign_up_back.jpg" alt="sign static" width="50%">
 
     <form action="">
 
