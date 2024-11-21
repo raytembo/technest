@@ -40,7 +40,7 @@ function goToHome() {
 
     }
 
-    form h3{
+    h3{
         color: white;
         font-size: 30px;
         font-weight: 700;

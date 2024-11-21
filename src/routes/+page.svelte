@@ -17,7 +17,6 @@
     <a href="/home">Home</a>
     <a href="/Cart">Cart</a>
     <a href="/Blog">Blog</a>
-    <a href="/profile">Profile</a>
     <a href="/faq">FAQ</a>
     <a href="/about">About Us</a>
   </div>
